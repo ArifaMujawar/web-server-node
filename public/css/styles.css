@@ -1,21 +1,26 @@
+html{
+  background:#a89797;
+}
 body{
   color: #333333;
+  background: #eeeeee;
   font-family: arial;
   max-width: 650px;
   margin: 0 auto;
   padding: 0 16px;
-
+  
   display: flex;
   flex-direction: column;
   min-height: 100vh;
 }
 .main-content{
   flex-grow: 1;
+  
 }
 /* footer  */
 footer{
   color:#888888;
-  border-top: 1px solid #eeeeee;
+  border-top: 1px solid #a8a5a5;
   margin-top:  16px;
   padding: 16px 0;
 }
@@ -29,10 +34,11 @@ h1{
   font-size: 64px;
   margin-bottom: 16px;
 }
+
  header a{
-columns: #888888;
-margin-right: 16px;
-text-decoration: none;
+  color: #888888;
+  margin-right: 16px;
+  text-decoration-color: black;
 }
 .portrait{
   width: 250px;
@@ -40,10 +46,14 @@ text-decoration: none;
 input{
   border: 1px solid #cccccc;
   padding: 8px;
+  border-radius: 5px;
 }
 button{
   cursor: pointer;
-  border: 1px solid #888888;
+  border: 1px solid #777373;
   background: #888888;
   padding: 8px;
+}
+form{
+  margin-top:150px;
 }
